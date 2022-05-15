@@ -8,7 +8,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 	- [Examples](#examples)
-- [License](#license)
 
 <!-- /TOC -->
 
