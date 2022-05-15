@@ -2,17 +2,6 @@
 
 *ConfMerge* lets you merge multiple configuration files into one file. Currently supported file formats are INI, YAML and JSON.
 
-**Table of contents:**
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Installation](#installation)
-- [Usage](#usage)
-	- [Examples](#examples)
-
-<!-- /TOC -->
-
----
-
 ## Installation
 
 To install *ConfMerge* directly from Github:
@@ -46,7 +35,7 @@ optional arguments:
   --version             Print the program version and exit
 ```
 
-### Examples
+## Examples
 
 Merge multiple INI files and write result into `res.ini`
 ```
