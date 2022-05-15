@@ -103,6 +103,7 @@ class IniFile(ConfigFile):
     def read(self):
         super().read()
         f = configparser.ConfigParser()
+        f.optionxform=str
         try:
             f.read(self.path)
         except Exception as e:
@@ -112,6 +113,7 @@ class IniFile(ConfigFile):
 
     def write(self, content, mode=None, force=False, dry_run=False):
         config = configparser.ConfigParser()
+        config.optionxform=str
         for section in content:
             config.add_section(section)
             section_data = content[section]
