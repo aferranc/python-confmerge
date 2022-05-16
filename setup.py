@@ -12,7 +12,7 @@ setup(
     author_email="aferranc@cirsa.com",
     url="https://github.com/aferranc/python-confmerge",
     license="LGPL",
-    description="Configuration file merge utility",
+    description="Merge multiple configuration files into one file. Supported file formats are INI, YAML and JSON.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords="config ini yaml json command-line CLI",
