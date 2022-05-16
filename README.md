@@ -9,6 +9,13 @@ To install *ConfMerge* directly from Github:
 pip install git+https://github.com/aferranc/python-confmerge@v0.2.0
 ```
 
+## RPM build
+
+To build RPM package:
+```
+python3 setup.py bdist_rpm --binary-only --requires python3-pyyaml
+```
+
 ## Usage
 
 ```
